@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.data-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.data-item p {
+  margin: 0;
+}
+
+.button-group {
+  margin-left: 10px;
+}
+
+.create-form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 5px;
+}
